@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\DSA IN C++"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Layout css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web dev"
+	}
+}

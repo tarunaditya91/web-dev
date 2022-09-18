@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+    <style>
+        .box-set,.box{
+            border-radius: 6px;
+        }
+        .box-set{
+            background: black;
+        }
+    
+        .box{
+            background-color: green;
+            height:80px;
+            position:relative;
+            width:80px;
+            text-align: center;
+            margin: 20px;
+
+
+        }
+        .box-1{
+            top:10px
+        }
+        .box-4{
+            bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box-set">
+        <div class="box box-1">box 1</div>
+        <div class="box box-1">box 2</div>
+        <div class="box box-3">box 3</div>
+        <div class="box box-4">box 4</div>
+    </div>
+</body>
+</html>
